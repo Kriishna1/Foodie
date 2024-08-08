@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import SearchResults from "./components/SearchResults/SearchResults";
-export const BASE_URL = "http://localhost:9000";
+export const BASE_URL = "https://foodie-upex.onrender.com";
 
 const App = () => {
   const [data, setData] = useState(null);
