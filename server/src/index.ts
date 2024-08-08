@@ -27,6 +27,13 @@ app.get("/", (req, res) => {
       type: "lunch",
     },
     {
+      name: "RAMENss",
+      price: 24,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+      image: "/images/ramen.png",
+      type: "lunch",
+    },
+    {
       name: "GRILLED CHICKEN",
       price: 45,
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
